@@ -1,0 +1,120 @@
+.wrapper {
+  margin: 30px 0px;
+}
+
+.title-div {
+  margin: 0px 0px 50px 0px;
+}
+
+.title-div h1 {
+  margin: 20px 0px;
+  color: rgb(135, 135, 255);
+}
+
+.lists li {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.double-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.double-input div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.double-input div {
+  width: 100%;
+}
+
+.double-input div input {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 25px 0px 15px 20px;
+  background-color: rgb(230, 230, 230);
+  font-size: 1.15rem;
+  border: none;
+}
+
+input:focus {
+  outline: none !important;
+}
+.dropdown {
+    width: 100%;
+    max-width: 400px;
+}
+
+.dropdown h6{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 20px 15px 20px;
+  background-color: rgb(230, 230, 230);
+  font-size: 1.15rem;
+  border: none;
+}
+
+.dropdown-options{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    display: flex;
+    font-size: 1.2rem;
+    border:  1px solid black;
+    padding: 7px 11px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2px;
+    max-width: 400px;
+}
+
+.form-btn {
+  color: white;
+  background-color: rgb(3, 82, 3);
+  padding: 10px 50px;
+  font-size: 1.1rem;
+  border: none;
+}
+
+h4 {
+  font-size: 1.15rem;
+  margin: 30px 0px;
+  max-width: 400px;
+}
+
+.error input {
+    background-color: rgb(255, 198, 198);
+}
+
+.errorMessage {
+    color: red;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 770px) {
+  .double-input {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
